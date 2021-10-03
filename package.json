@@ -1,5 +1,6 @@
 {
   "name": "certs",
+  "homepage": "https://do-good-hackers.github.io/hackathon-certs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "autoprefixer": "^9.8.7",
+    "gh-pages": "^3.2.3",
     "postcss": "^7.0.38",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -21,6 +23,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "watch": "craco start",
     "start": "craco start",
     "build": "craco build",
