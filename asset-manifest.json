@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hackathon-certs/static/css/main.9054927f.chunk.css",
+    "main.js": "/hackathon-certs/static/js/main.24b13edb.chunk.js",
+    "main.js.map": "/hackathon-certs/static/js/main.24b13edb.chunk.js.map",
+    "runtime-main.js": "/hackathon-certs/static/js/runtime-main.107802e3.js",
+    "runtime-main.js.map": "/hackathon-certs/static/js/runtime-main.107802e3.js.map",
+    "static/js/2.4078b284.chunk.js": "/hackathon-certs/static/js/2.4078b284.chunk.js",
+    "static/js/2.4078b284.chunk.js.map": "/hackathon-certs/static/js/2.4078b284.chunk.js.map",
+    "static/js/3.e12c56d1.chunk.js": "/hackathon-certs/static/js/3.e12c56d1.chunk.js",
+    "static/js/3.e12c56d1.chunk.js.map": "/hackathon-certs/static/js/3.e12c56d1.chunk.js.map",
+    "index.html": "/hackathon-certs/index.html",
+    "static/css/main.9054927f.chunk.css.map": "/hackathon-certs/static/css/main.9054927f.chunk.css.map",
+    "static/js/2.4078b284.chunk.js.LICENSE.txt": "/hackathon-certs/static/js/2.4078b284.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/hackathon-certs/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.107802e3.js",
+    "static/js/2.4078b284.chunk.js",
+    "static/css/main.9054927f.chunk.css",
+    "static/js/main.24b13edb.chunk.js"
+  ]
+}
