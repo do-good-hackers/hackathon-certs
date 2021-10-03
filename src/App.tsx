@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { useParams } from 'react-router-dom';
+import cert1Bg from './cert1-bg.jpg';
+
+interface Params {
+  participant: string;
+}
 
 function App() {
+  const params = useParams<Params>();
+  const { participant } = params;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="relative h-full w-xl">
+      <div className="top-0 absolute">
+        <img src={cert1Bg} alt="do good hackers certs" />
+      </div>
+      <div
+        className="absolute font-bold"
+        style={{ left: '21vw', top: '35vw', fontSize: '3vw' }}
+      >
+        {participant}
+      </div>
     </div>
   );
 }
